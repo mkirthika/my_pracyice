@@ -1,0 +1,24 @@
+name=input("Enter your name : ")
+print(name)
+NoE =input("years of experience : ")
+print("you have {} of experience".format(NoE))
+x= int(NoE)
+if bool(x) == True:
+    if x <= 3:
+        print("entry level")
+    elif x >3 and x<=6:
+       print("intermediate")
+    else:
+     print("Exp")
+else:
+    print("Fresher")
+
+
+
+
+#/*if NoE<=3:
+ #   print("you will be eligible to apply for entry level")
+#elif NoE>3 and NoE<=6:
+#    print("you will be eligible to apply for intermidiate level")
+#elif NoE >6:
+#    print("you will be eligible to apply for experienced level")*/
